@@ -1,5 +1,6 @@
 package org.capstone.backend.dto.account;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.capstone.backend.utils.enums.AccountStatus;
 import org.capstone.backend.utils.enums.Role;
