@@ -11,5 +11,7 @@ public class MyChallengeResponse {
     private String name;
     private String picture;
     private ChallengeStatus status; // Trạng thái thử thách
-    private ChallengeRole role; // Vai trò của user trong thử thách
+    private ChallengeRole role;
+    private Long remainingDays;         // nếu UPCOMING hoặc ONGOING
+    private Double averageVotes;   // Vai trò của user trong thử thách
 }
